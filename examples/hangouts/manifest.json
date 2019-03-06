@@ -1,7 +1,7 @@
 {
   "supportsUnreadCount": true,
   "supportsTrayMessages": true,
-  "supportsGuestConfig": true,
+  "supportsWBGAPI": true,
   "html5NotificationsGenerateUnreadActivity": false,
   "adaptors": [{
     "matches": [
