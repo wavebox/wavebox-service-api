@@ -1,0 +1,12 @@
+{
+  "supportsUnreadCount": true,
+  "supportsTrayMessages": true,
+  "supportsGuestConfig": true,
+  "html5NotificationsGenerateUnreadActivity": false,
+  "adaptors": [{
+    "matches": [
+      "http(s)\\://hangouts.google.com(*)"
+    ],
+    "js": "hangouts.js"
+  }]
+}

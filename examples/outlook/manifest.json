@@ -1,0 +1,11 @@
+{
+  "commands": [
+    {
+      "modifier": "/",
+      "keyword": "email",
+      "helper": "user@wavebox.io My Subject",
+      "description": "Start composing an email",
+      "js": "compose.js"
+    }
+  ]
+}
