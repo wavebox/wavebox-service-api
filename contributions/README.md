@@ -1,1 +1,0 @@
-Open pull requests in folders under this directory

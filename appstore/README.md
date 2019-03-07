@@ -1,0 +1,1 @@
+To add an api integration into a service in the app store, open a pull request under this directory

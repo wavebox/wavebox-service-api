@@ -1,0 +1,25 @@
+{
+  "commands": [
+    {
+      "modifier": "/",
+      "keyword": "tweet",
+      "helper": "<Your tweet>",
+      "description": "Start composing a tweet",
+      "url": "http://twitter.com/intent/tweet/?text={{args}}"
+    },
+    {
+      "modifier": "?",
+      "keyword": "twitter",
+      "helper": "<Search Term>",
+      "description": "Search Twitter",
+      "url": "http://twitter.com/search?q={{args}}"
+    },
+    {
+      "modifier": "@",
+      "keyword": "twitter",
+      "helper": "<Twitter User>",
+      "description": "Search for a twitter user",
+      "url": "http://twitter.com/{{args}}"
+    }
+  ]
+}

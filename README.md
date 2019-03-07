@@ -156,4 +156,4 @@ Examples can be found in the examples folder:
 
 # Contributing
 
-Side-loading your service customisations is just the first step. If you want to include them in the App Store entries, just open up a Pull Request on this repository and place your changes under the `contributions` folder. The Wavebox team will review them and add them into the store entries.
+Side-loading your service customisations is just the first step. If you want to include them in the App Store entries, just open up a Pull Request on this repository and place your changes under the `appstore` folder. The Wavebox team will review them and add them into the store entries.
