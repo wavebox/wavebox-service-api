@@ -1,0 +1,12 @@
+{
+  "documentTitleHasUnread": false,
+  "html5NotificationsGenerateUnreadActivity": false,
+  "supportsWBGAPI": true,
+  "supportsTrayMessages": true,
+  "supportsUnreadCount": true,
+  "supportsUnreadActivity": true,
+  "adaptors": [{
+    "matches": ["http(s)\\://web.whatsapp.com(*)"],
+    "js": "adaptor.js"
+  }]
+}

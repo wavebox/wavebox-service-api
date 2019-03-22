@@ -87,13 +87,16 @@ Each message item provided should validate as so:
 
 * **id=auto (string:max=100)** a unique id for this message. Providing this helps improve performance
 * **text (string:max=100)** text to display to the user
-* **date=auto (int)** epoch time of the message which can be used for ordering
+* **title (string:max=100)** *(Version 4.8.5+)* title text to display to the user. *Note if title and text are both supplied, title will be used*
+* **subtitle (string:max=100)** *(Version 4.8.5+)* subtitle text to display to the user
+* **date=auto (int)** epoch time of the message which can be used for ordering. Will also support incrementing numbers for ordering
 
 ```js
 window.wavebox.tray.setMessages([
 	{
 		id: 'message_id_1',
-		text: 'Bob said: You have a message',
+		title: 'Joe Bloggs',
+		subtitle: 'You have a message',
 		date: 1516022635099
 	}
 ])
