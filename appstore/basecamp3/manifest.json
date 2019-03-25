@@ -1,0 +1,15 @@
+{
+    "supportsUnreadCount": true,
+    "supportsGuestNotifications": true,
+    "supportsWBGAPI": true,
+    "html5NotificationsGenerateUnreadActivity": false,
+    "documentTitleHasUnread": false,
+    "adaptors": [
+        {
+            "matches": [
+                "http(s)\\://3.basecamp.com(*)"
+            ],
+            "js": "basecamp.js"
+        }
+    ]
+}
